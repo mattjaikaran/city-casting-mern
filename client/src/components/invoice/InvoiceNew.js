@@ -77,7 +77,6 @@ class InvoiceNew extends Component {
     }
     axios.post('/api/invoice/add', obj)
       .then(res => this.props.history.push('/invoice'))
-
   }
 
   dueDate = (dueDate) => {
